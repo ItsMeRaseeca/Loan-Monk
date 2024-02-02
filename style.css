@@ -1,0 +1,49 @@
+/* Header */
+body{
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
+
+.nav-link{
+    color: black !important;   
+    font-weight: 600 !important; 
+    font-size: 14px !important;
+}
+
+#logo1{
+    padding-right: 10px;
+}
+
+#logo2{
+    padding-top: 5px;
+}
+
+#contact-btn{
+    border-color: #3242A1; 
+    border-width: 2.1px; 
+    border-radius: 30px; 
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* Hero */
+
+#hero-subtitle{
+    color: #7e7d7d; 
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+#hero-btn{
+    background-color: rgb(241, 91, 4);
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    height: 54px;
+    width: 155px;     
+}
+
+#scribble{
+    margin-top: -180px;
+    height: 20px;
+    margin-left: 150px;
+}
