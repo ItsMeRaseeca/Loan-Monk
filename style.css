@@ -7,6 +7,11 @@ body{
     color: black !important;   
     font-weight: 600 !important; 
     font-size: 14px !important;
+    transition: transform 0.3s ease-in-out !important; 
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
 }
 
 #logo1{
@@ -25,6 +30,11 @@ body{
     font-size: 14px;
 }
 
+#contact-btn:hover{
+    background-color: #3242A1;
+    color: white;
+}
+
 /* Hero */
 
 #hero-subtitle{
@@ -40,6 +50,10 @@ body{
     font-size: 14px;
     height: 54px;
     width: 155px;     
+}
+
+#hero-btn:hover{
+    background-color: rgb(255, 140, 40);
 }
 
 #scribble{
