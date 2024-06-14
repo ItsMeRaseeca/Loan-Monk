@@ -4,7 +4,6 @@ body{
 }
 
 .nav-link{
-    color: black !important;   
     font-weight: 600 !important; 
     font-size: 14px !important;
     transition: transform 0.3s ease-in-out !important; 
@@ -26,7 +25,6 @@ body{
     border-color: #3242A1; 
     border-width: 2.1px; 
     border-radius: 30px; 
-    padding: 8px 20px;
     font-size: 14px;
 }
 
@@ -55,9 +53,183 @@ body{
 #hero-btn:hover{
     background-color: rgb(255, 140, 40);
 }
-
-#scribble{
+.scribble-text{
+    position: relative;
+}
+#scribble {
+    position: absolute;
+    top: 15rem;
+    bottom: 0;
+    left: 37%;
+    right: auto;
     margin-top: -180px;
     height: 20px;
     margin-left: 150px;
+}
+
+/* Products & Services */
+.prod-title{
+    font-size: 36px;
+    font-family: "Instrument Sans", sans-serif;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    padding-top: 40px; 
+}
+
+.prod-subtitle{
+    font-size: 24px;
+    font-family: "HedvigLettersSerif18pt", serif;
+    color: rgb(34, 34, 34);
+    line-height: 1.2;
+    text-align: center;
+}  
+
+.prod-paragraph{
+    font-size: 16px;
+    font-family: "InstrumentSans", sans-serif;
+    color: rgb(119, 119, 119);
+}
+
+.prod-card .card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .prod-card .image-container {
+    flex-shrink: 0;
+  }
+  
+  .prod-card .text-content {
+    flex-grow: 1;
+  }
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    position: relative;
+  }
+  
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
+  
+  .logos:before {
+    left: 0;
+  }
+  
+  .logos:after {
+    right: 0;
+  }
+  
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
+  
+  .logos-slide {
+    display: flex;
+    width: 200%; 
+    animation: 35s slide linear infinite;
+  }
+
+  .feature-card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(49, 66, 160);
+    border-radius: 24px;
+    background-color: rgba(255, 231, 211, 0);
+
+    width: 414px;
+    height: 324px;
+    z-index: 102;
+  }
+
+  .card-body {
+    position: relative;
+  }
+  
+  .card-svg {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .testimonial-card {
+    border-radius: 24px;
+    background-color: rgb(255, 231, 211);
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 424px;
+    width: 1070px;
+    padding: 20px;
+    z-index: 139;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    position: relative;
+}
+
+.svg-wrapper {
+    position: absolute;
+    top: 80px;
+    left: 190px;
+}
+
+.testimonial-text {
+    padding-top: 130px;
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .text-content {
+        padding-top: 70px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-card {
+        width: 100%;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .text-content {
+        padding-top: 60px; 
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 300px){
+    #scribble {
+        top: 15rem;
+        bottom: 0;
+        left: 37%;
+        right: auto;
+    }
+    
+}
+@media only screen and (max-width: 1920px) and (min-width: 1400px){
+
+    
 }
