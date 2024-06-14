@@ -6,37 +6,53 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Hedvig+Letters+Serif:opsz@12..24&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Libre+Baskerville&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Taviraj&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->
+
     <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
         <div class="col-md-3 mb-2 mb-md-0">
           <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-            <img id="logo1" src="./images/logo1.png" height="25px">
-            <img id="logo2" src="./images/logo2.png" height="20px" width="125px">
+            <svg xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              width="188px" height="41px">
+              <path fill-rule="evenodd"  fill="rgb(241, 91, 4)"
+              d="M27.540,31.780 C26.570,31.780 25.784,30.995 25.784,30.025 L25.784,13.627 C25.784,12.657 26.570,11.872 27.540,11.872 C28.510,11.872 29.296,12.657 29.296,13.627 L29.296,30.025 C29.296,30.995 28.510,31.780 27.540,31.780 ZM21.094,24.440 C20.124,24.440 19.338,23.654 19.338,22.685 L19.338,5.776 C19.338,4.807 20.124,4.021 21.094,4.021 C22.064,4.021 22.850,4.807 22.850,5.776 L22.850,22.685 C22.850,23.654 22.064,24.440 21.094,24.440 ZM14.648,20.414 C13.678,20.414 12.892,19.628 12.892,18.659 L12.892,1.750 C12.892,0.781 13.678,-0.005 14.648,-0.005 C15.618,-0.005 16.404,0.781 16.404,1.750 L16.404,18.659 C16.404,19.628 15.618,20.414 14.648,20.414 ZM29.296,39.190 C29.296,40.160 28.510,40.945 27.540,40.945 L11.425,40.945 C5.125,40.945 -0.000,35.823 -0.000,29.529 L-0.000,17.451 C-0.000,16.481 0.786,15.696 1.756,15.696 C2.726,15.696 3.513,16.481 3.513,17.451 L3.513,29.529 C3.513,33.888 7.062,37.435 11.425,37.435 L27.540,37.435 C28.510,37.435 29.296,38.221 29.296,39.190 ZM8.202,24.440 C7.232,24.440 6.446,23.654 6.446,22.685 L6.446,5.776 C6.446,4.807 7.232,4.021 8.202,4.021 C9.172,4.021 9.959,4.807 9.959,5.776 L9.959,22.685 C9.959,23.654 9.172,24.440 8.202,24.440 Z"/>
+              <path fill-rule="evenodd"  fill="rgb(49, 66, 160)"
+              d="M180.687,19.958 L186.724,26.365 C187.049,26.766 187.199,27.091 187.199,27.391 C187.199,28.092 186.548,28.593 185.797,28.593 C185.396,28.593 184.970,28.493 184.620,28.117 L178.633,21.710 L176.755,23.362 L176.755,27.291 C176.755,28.142 176.003,28.593 175.277,28.593 C174.550,28.593 173.849,28.142 173.849,27.291 L173.849,13.926 C173.849,13.050 174.550,12.649 175.277,12.649 C176.003,12.649 176.755,13.050 176.755,13.926 L176.755,19.908 L184.494,13.050 C184.820,12.774 185.171,12.649 185.546,12.649 C186.348,12.649 186.999,13.300 186.999,13.951 C186.999,14.276 186.824,14.627 186.498,14.927 L180.687,19.958 ZM168.487,28.593 C167.911,28.593 167.310,28.292 166.984,27.867 L159.319,18.006 L159.420,19.407 L159.420,27.266 C159.420,28.192 158.668,28.593 157.942,28.593 C157.165,28.593 156.439,28.192 156.439,27.266 L156.439,14.176 C156.439,13.175 157.165,12.649 157.967,12.649 C158.593,12.649 159.019,12.900 159.420,13.400 L167.285,23.612 L167.185,21.935 L167.185,13.875 C167.185,13.074 167.961,12.649 168.712,12.649 C169.464,12.649 170.165,13.025 170.165,13.875 L170.165,27.091 C170.165,28.092 169.314,28.593 168.487,28.593 ZM145.215,28.843 C140.305,28.843 136.999,25.564 136.999,20.634 C136.999,15.703 140.305,12.399 145.215,12.399 C150.099,12.399 153.355,15.703 153.355,20.634 C153.355,25.564 150.099,28.843 145.215,28.843 ZM145.215,14.951 C142.059,14.951 139.955,17.229 139.955,20.634 C139.955,24.012 142.059,26.290 145.215,26.290 C148.346,26.290 150.424,24.012 150.424,20.634 C150.424,17.229 148.346,14.951 145.215,14.951 ZM132.288,28.593 C131.561,28.593 130.860,28.167 130.860,27.291 L130.860,18.856 L127.128,24.688 C126.852,25.189 126.326,25.414 125.825,25.414 C125.324,25.414 124.748,25.114 124.473,24.613 L120.791,18.881 L120.791,27.291 C120.791,28.167 120.039,28.593 119.338,28.593 C118.611,28.593 117.886,28.167 117.886,27.291 L117.886,14.076 C117.886,13.200 118.586,12.649 119.313,12.649 C119.789,12.649 120.290,12.925 120.590,13.400 L125.825,21.584 L131.035,13.375 C131.361,12.874 131.887,12.649 132.363,12.649 C133.089,12.649 133.766,13.150 133.766,14.050 L133.766,27.291 C133.766,28.167 132.989,28.593 132.288,28.593 ZM105.584,28.593 C105.007,28.593 104.407,28.292 104.081,27.867 L96.416,18.006 L96.516,19.407 L96.516,27.266 C96.516,28.192 95.765,28.593 95.038,28.593 C94.262,28.593 93.536,28.192 93.536,27.266 L93.536,14.176 C93.536,13.175 94.262,12.649 95.064,12.649 C95.690,12.649 96.116,12.900 96.516,13.400 L104.381,23.612 L104.281,21.935 L104.281,13.875 C104.281,13.074 105.058,12.649 105.809,12.649 C106.561,12.649 107.262,13.025 107.262,13.875 L107.262,27.091 C107.262,28.092 106.410,28.593 105.584,28.593 ZM90.002,28.843 C89.526,28.843 88.975,28.593 88.725,28.117 L86.971,24.638 L78.906,24.638 L77.152,28.117 C76.902,28.643 76.376,28.843 75.900,28.843 C75.023,28.843 74.047,28.042 74.497,27.066 L81.636,13.099 C81.887,12.549 82.287,12.399 82.939,12.399 C83.464,12.399 83.965,12.599 84.216,13.099 L91.305,26.991 C91.956,28.092 90.954,28.843 90.002,28.843 ZM82.939,16.629 L80.133,22.210 L85.744,22.210 L82.939,16.629 ZM65.378,28.843 C60.468,28.843 57.162,25.564 57.162,20.634 C57.162,15.703 60.468,12.399 65.378,12.399 C70.262,12.399 73.518,15.703 73.518,20.634 C73.518,25.564 70.262,28.843 65.378,28.843 ZM65.378,14.951 C62.221,14.951 60.117,17.229 60.117,20.634 C60.117,24.012 62.221,26.290 65.378,26.290 C68.508,26.290 70.588,24.012 70.588,20.634 C70.588,17.229 68.508,14.951 65.378,14.951 ZM55.782,28.593 L46.139,28.593 C45.062,28.593 44.636,28.117 44.636,27.241 L44.636,13.926 C44.636,13.074 45.362,12.649 46.114,12.649 C46.815,12.649 47.567,13.074 47.567,13.926 L47.567,26.090 L55.782,26.090 C56.759,26.090 57.285,26.741 57.285,27.341 C57.285,27.992 56.759,28.593 55.782,28.593 Z"/>
+              </svg>
           </a>
         </div>
-  <nav class="navbar navbar-expand-md">
-        <ul class="navbar-nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-          <li class="nav-item"><a href="#" class="nav-link px-4">Products & Services</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-4">Testimonials</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-4">About Us</a></li>
+  
+        <ul class="nav gap-5 col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link text-black px-2">Products & Services</a></li>
+          <li><a href="#" class="nav-link text-black px-2">Testimonials</a></li>
+          <li><a href="#" class="nav-link text-black px-2">About Us</a></li>
         </ul>
-  </nav>
+  
         <div class="col-md-3 text-end">
-          <button id="contact-btn" type="button" class="btn me-2">Contact</button>
+          <a id="contact-btn" class="btn px-4 py-2">Contact</a>
         </div>
       </header>
     </div>
 
     <!-- Hero -->
     <div class="container">
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-lg-4 py-5 my-5 text-center">
+          <div class="scribble-text">
             <h1 class="display-4 fw-medium text-body-emphasis">Your  Trusted <br> Loan  Services  Provider</h1>
             <img id="scribble" src="./images/scribble.png">
+          </div>
             <div class="col-lg-6 mx-auto">
-              <p id="hero-subtitle" class="lead mb-4">Unlock Financial Flexibility with Loan Monk</p>
+              <p id="hero-subtitle" class="lead mb-4 py-4">Unlock Financial Flexibility with Loan Monk</p>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                 <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3">Know More</button>
               </div>
@@ -55,64 +71,217 @@
     </div>
   </div>
 
+
+
   <!-- Products & Services -->
-  <div class="container text-center py-4" style="max-width: 1070px; border-radius: 15px; overflow: hidden; border-color: transparent;">
-    <h6 class="text-center py-3 my-5 fs-6 text-secondary">PRODUCTS & SERVICES</h6>
-    <h2 style="font-family: 'Georgia Regular';">Funding Your Ambitions, <br> Simplifying Loans.</h2>
+  
+  <div class="container mt-5 pt-5">
+    <h6 class="text-center pt-5  pb-4 text-secondary">PRODUCTS & SERVICES</h6>
+    <h2 style="font-family: 'Georgia Regular';" class="text-center">Funding Your Ambitions, <br> Simplifying Loans.</h2>
+  
+  <div class="pt-5 d-flex justify-content-center">
+    
+    <div class="row col-10 gap-5">
 
-    <div class="card mt-5 mb-5" style="max-width: 1070px; border-radius: 15px; overflow: hidden; border-color: transparent;">
-      <div class="row g-0">
-        <div class="col-md-6" style="background-color: #FFE7D3; height: 100%;">
-          <img src="./images/prod-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover; border-radius: 15px;">
-        </div>
-        <div class="col-md-6">
-          <div class="card-body d-flex flex-column" style="background-color: #ffe7d3; height: 100%;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px;">Know More</button>
+        <div class="prod-card mb-5 p-0 rounded-5" style="background-color: #ffe7d3;">
+          <div class="card-content">
+            <div class="image-container rounded-5 p-0">
+              <img src="images/prod-1.png" alt="product 1">
+            </div>
+            <div class="text-content text-center">
+              <h5 class="card-title fs-3 fw-bold prod-title">Home Loan</h5>
+              <p class="card-text prod-subtitle pt-3">Dream home with our tailored<br>Home Loan solutions in India!</p>
+              <p class="prod-paragraph py-2 px-5">Elevate your home buying journey with our specialized home loan services designed for you.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px; margin-bottom: 41px;">Know More</button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    
-    <div class="card mb-5" style="max-width: 1070px; border-radius: 15px; overflow: hidden; border-color: transparent;">
-      <div class="row g-0">
-        <div class="col-md-6">
-          <div class="card-body d-flex flex-column" style="background-color: #c4fcf0; height: 100%;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px;">Know More</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6" style="background-color: #c4fcf0;">
-          <img src="./images/prod-2.png" class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover; border-radius: 15px;">
-        </div>
-      </div>
-    </div>
 
-    <div class="card mt-5 mb-5" style="max-width: 1070px; border-radius: 15px; overflow: hidden; border-color: transparent;">
-      <div class="row g-0">
-        <div class="col-md-6" style="background-color: #ffd3d7; height: 100%;">
-          <img src="./images/prod-3.png" class="img-fluid rounded-start" alt="..." style="height: 100%; object-fit: cover; border-radius: 15px;">
+        <div class="prod-card mb-5 p-0 rounded-5" style="background-color: #c4fcf0;">
+          <div class="card-content">
+            <div class="text-content text-center">
+              <h5 class="card-title fs-3 fw-bold prod-title">Loan Against Property</h5>
+              <p class="card-text prod-subtitle pt-3">Leverage the value of your property<br>with our hassle-free Loan Solutions!</p>
+              <p class="prod-paragraph py-2 px-5">Unlock the financial potential of your property with our tailored loan against property services.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px; margin-bottom: 41px;">Know More</button>
+              </div>
+            </div>
+            <div class="image-container rounded-5 p-0">
+              <img src="images/prod-2.png" alt="product 1">
+            </div>
+          </div>
         </div>
-        <div class="col-md-6">
-          <div class="card-body d-flex flex-column" style="background-color: #ffd3d7; height: 100%;">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text flex-grow-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px;">Know More</button>
+
+        <div class="prod-card mb-5 p-0 rounded-5" style="background-color: #ffd3d7;">
+          <div class="card-content">
+            <div class="image-container rounded-5 p-0">
+              <img src="images/prod-3.png" alt="product 1">
+            </div>
+            <div class="text-content text-center">
+              <h5 class="card-title fs-3 fw-bold prod-title">Business Loan</h5>
+              <p class="card-text prod-subtitle pt-3">Capital your business needs with<br>our Business Loan solutions!</p>
+              <p class="prod-paragraph py-2 px-5">Empower your business with our flexible and personalized business loan services.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button id="hero-btn" type="button" class="btn btn-lg px-4 gap-3" style="height: 45px; width: 130px; margin-bottom: 41px;">Know More</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
   </div>
+
+
+  <!-- Why Choose Us -->
+
+  <h6 class="text-center mt-5 pt-5 pb-4 text-secondary">WHY CHOOSE LOAN MONK</h6>
+  <h2 style="font-family: 'Georgia Regular';" class="text-center">From founding to filing,<br>we're with you</h2>
+  
+  <div class="logos">
+      <div class="logos-slide d-flex gap-4">
+        <div class="card border-0">
+          <div class="card-body position-relative p-5 feature-card">
+            <svg class="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+              <path fill-rule="evenodd" fill="rgb(49, 66, 160)" d="M15.000,0.920 L15.000,0.920 C7.224,0.920 0.920,7.224 0.920,15.000 L0.920,15.000 C0.920,22.776 7.224,29.080 15.000,29.080 L15.000,29.080 C22.776,29.080 29.080,22.776 29.080,15.000 L29.080,15.000 C29.080,7.224 22.776,0.920 15.000,0.920 ZM24.202,10.917 L14.165,20.951 C13.566,21.550 12.594,21.550 11.995,20.951 L7.077,16.035 C6.547,15.505 6.547,14.647 7.077,14.117 L7.079,14.115 C7.609,13.586 8.467,13.586 8.997,14.115 L13.080,18.197 L22.283,8.997 C22.812,8.467 23.671,8.467 24.201,8.997 L24.202,8.999 C24.732,9.529 24.732,10.387 24.202,10.917 Z"/>
+            </svg>
+            <h5 class="card-title pt-4">Diverse Loan Offerings</h5>
+            <p class="fs-6 text-black pt-3">Explore our array of loan products catering to diverse needs, whether it's home loans, small business loans, or refinancing options.</p>
+          </div>
+        </div>
+  
+        <div class="card border-0">
+          <div class="card-body position-relative p-5 feature-card">
+            <svg class="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+              <path fill-rule="evenodd" fill="rgb(49, 66, 160)" d="M15.000,0.920 L15.000,0.920 C7.224,0.920 0.920,7.224 0.920,15.000 L0.920,15.000 C0.920,22.776 7.224,29.080 15.000,29.080 L15.000,29.080 C22.776,29.080 29.080,22.776 29.080,15.000 L29.080,15.000 C29.080,7.224 22.776,0.920 15.000,0.920 ZM24.202,10.917 L14.165,20.951 C13.566,21.550 12.594,21.550 11.995,20.951 L7.077,16.035 C6.547,15.505 6.547,14.647 7.077,14.117 L7.079,14.115 C7.609,13.586 8.467,13.586 8.997,14.115 L13.080,18.197 L22.283,8.997 C22.812,8.467 23.671,8.467 24.201,8.997 L24.202,8.999 C24.732,9.529 24.732,10.387 24.202,10.917 Z"/>
+            </svg>
+            <h5 class="card-title pt-4">Seamless Application Process</h5>
+            <p class="fs-6 text-black pt-3">Experience a hassle-free application
+              process with our user-friendly
+              approach.</p>
+          </div>
+        </div>
+  
+        <div class="card border-0">
+          <div class="card-body position-relative p-5 feature-card">
+            <svg class="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+              <path fill-rule="evenodd" fill="rgb(49, 66, 160)" d="M15.000,0.920 L15.000,0.920 C7.224,0.920 0.920,7.224 0.920,15.000 L0.920,15.000 C0.920,22.776 7.224,29.080 15.000,29.080 L15.000,29.080 C22.776,29.080 29.080,22.776 29.080,15.000 L29.080,15.000 C29.080,7.224 22.776,0.920 15.000,0.920 ZM24.202,10.917 L14.165,20.951 C13.566,21.550 12.594,21.550 11.995,20.951 L7.077,16.035 C6.547,15.505 6.547,14.647 7.077,14.117 L7.079,14.115 C7.609,13.586 8.467,13.586 8.997,14.115 L13.080,18.197 L22.283,8.997 C22.812,8.467 23.671,8.467 24.201,8.997 L24.202,8.999 C24.732,9.529 24.732,10.387 24.202,10.917 Z"/>
+            </svg>
+            <h5 class="card-title pt-4">Personalized Solutions</h5>
+            <p class="fs-6 text-black pt-3">We recognize that one size doesn't fit
+              all when it comes to finances. That's
+              why our experts work closely with you
+              to understand your unique requirements
+              and craft tailored loan solutions that
+              align with your financial goals.</p>
+          </div>
+        </div>
+  
+        <div class="card border-0">
+          <div class="card-body position-relative p-5 feature-card">
+            <svg class="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+              <path fill-rule="evenodd" fill="rgb(49, 66, 160)" d="M15.000,0.920 L15.000,0.920 C7.224,0.920 0.920,7.224 0.920,15.000 L0.920,15.000 C0.920,22.776 7.224,29.080 15.000,29.080 L15.000,29.080 C22.776,29.080 29.080,22.776 29.080,15.000 L29.080,15.000 C29.080,7.224 22.776,0.920 15.000,0.920 ZM24.202,10.917 L14.165,20.951 C13.566,21.550 12.594,21.550 11.995,20.951 L7.077,16.035 C6.547,15.505 6.547,14.647 7.077,14.117 L7.079,14.115 C7.609,13.586 8.467,13.586 8.997,14.115 L13.080,18.197 L22.283,8.997 C22.812,8.467 23.671,8.467 24.201,8.997 L24.202,8.999 C24.732,9.529 24.732,10.387 24.202,10.917 Z"/>
+            </svg>
+            <h5 class="card-title pt-4">Transparent and Fair
+              Practices</h5>
+            <p class="fs-6 text-black pt-3">At Loan Monk, transparency and
+              fairness are at the core of our
+              operations.</p>
+          </div>
+        </div>
+  
+        <div class="card border-0">
+          <div class="card-body position-relative p-5 feature-card">
+            <svg class="card-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="30px">
+              <path fill-rule="evenodd" fill="rgb(49, 66, 160)" d="M15.000,0.920 L15.000,0.920 C7.224,0.920 0.920,7.224 0.920,15.000 L0.920,15.000 C0.920,22.776 7.224,29.080 15.000,29.080 L15.000,29.080 C22.776,29.080 29.080,22.776 29.080,15.000 L29.080,15.000 C29.080,7.224 22.776,0.920 15.000,0.920 ZM24.202,10.917 L14.165,20.951 C13.566,21.550 12.594,21.550 11.995,20.951 L7.077,16.035 C6.547,15.505 6.547,14.647 7.077,14.117 L7.079,14.115 C7.609,13.586 8.467,13.586 8.997,14.115 L13.080,18.197 L22.283,8.997 C22.812,8.467 23.671,8.467 24.201,8.997 L24.202,8.999 C24.732,9.529 24.732,10.387 24.202,10.917 Z"/>
+            </svg>
+            <h5 class="card-title pt-4">Customer-Centric
+              Approach</h5>
+            <p class="fs-6 text-black pt-3">Your satisfaction is our priority. Our
+              commitment to exceptional customer
+              service means you can rely on us not
+              just as a loan provider but as a trusted
+              financial partner throughout your
+              journey.
+              </p>
+          </div>
+        </div>
+
+    </div>  
+  </div>
+
+  <!-- Testimonial -->
+
+  <div class="container mt-5 pt-5 mb-5 pb-5">
+    <h6 class="text-center pb-4 text-secondary">TESTIMONIAL</h6>
+    <h2 style="font-family: 'Georgia Regular';" class="text-center">What our clients think<br>about our services</h2>
+  
+  <div class="pt-5 d-flex justify-content-center">
+  <div class="row col-10 gap-5">
+
+    <div class="testimonial-card mb-5 p-0 rounded-5 mb-5 pb-5" style="background-color: #ffe7d3;">
+      <div class="card-content position-relative p-4">
+          <div class="svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61px" height="53px">
+                  <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" font-size="128px" x="0px" y="88.7190000000001px">
+                      <tspan font-size="128px" font-family="HedvigLettersSerif18pt" fill="#F15B04">&#8220;</tspan>
+                  </text>
+              </svg>
+          </div>
+          <div class="testimonial-text">
+              <p class="prod-subtitle pt-3">At Loan Monk, transparency and fairness are at the core of our operations.<br>
+                We maintain clear terms and conditions, ensuring you understand every<br>
+                aspect of your loan, empowering you to make informed decisions. </p>
+          </div>
+      </div>
+  </div>
+      </div>  
+    </div>
+</div>
+
+<section style="background-color: #3142a0;" class="rounded-top-5 mt-5 pt-5">
+<div class="container text-white">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 mb-3">
+        <ul class="nav text-white flex-column">
+          <li class="nav-item mb-2"><a href="#" class="text-decoration-none fs-5 p-0 text-white">Call:  +91 22 0000 000</a></li>
+          <li class="nav-item mb-2"><a href="#" class="text-decoration-none fs-5 p-0 text-white">Email:  info@loanmonk.com</a></li>
+        </ul>
+      </div>
+
+
+      <ul class="nav col-md-6 text-white justify-content-end gap-4">
+        <li class="nav-item"><a href="#" class="nav-link px-2 fs-6 text-white">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 fs-6 text-white">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 fs-6 text-white">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 fs-6 text-white">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 fs-6 text-white">About</a></li>
+      </ul>
+
+      <ul class="nav col-md-12 text-white justify-content-end gap-4">
+        <li class="nav-item"><i class="bi bi-facebook" style="font-size: 1.4rem;"></i></li>
+        <li class="nav-item"><i class="bi bi-linkedin" style="font-size: 1.4rem;"></i></li>
+        <li class="nav-item"><i class="bi bi-instagram" style="font-size: 1.4rem;"></i></li>
+      </ul>
+      
+
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+      <p>© Loan Monk, All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><i class="bi"></i></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+</section>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
